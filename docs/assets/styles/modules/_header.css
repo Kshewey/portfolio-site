@@ -1,0 +1,46 @@
+.header {
+  color: #F5F5ED;
+  text-shadow: 1px 1px black;
+
+&-main-container {
+  height: 100%;
+  padding-top: 8%;
+  padding-bottom: auto;
+
+}
+
+&-headshot {
+  max-height: 15rem;
+  margin: auto;
+  display: block;
+
+}
+
+  &-heading {
+    text-align: center;
+    display: block;
+    font-size: 3rem;
+  }
+
+  &-sub-heading {
+    text-align: center;
+    font-size: 1.2rem;
+  margin-top: -1.2rem;
+  display: block;
+
+  }
+  &-prevent-collapse {
+    display: block;
+    height: 7rem;
+  }
+
+  &-about {
+    margin-top: none;
+    text-align: center;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: .5rem solid white;
+    font-size: 1.1rem;
+  }
+}

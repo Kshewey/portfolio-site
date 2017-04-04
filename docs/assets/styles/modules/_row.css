@@ -1,0 +1,24 @@
+.row {
+
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+   }
+
+   &-3 {
+     float: left;
+     width: 25%;
+   }
+
+  &-4 {
+    float:left;
+    width: 33.3%;
+
+    &::after {
+      content: "";
+      clear: both;
+      display: table;
+     }
+  }
+}
