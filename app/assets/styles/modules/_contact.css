@@ -1,0 +1,53 @@
+.contact {
+  color: #F5F5ED;
+  text-shadow: 1px 1px black;
+  background: url(/assets/images/contact-background2.jpg) fixed;
+  background-size: cover;
+  margin-left: -.5rem;
+  margin-right: -.5rem;
+  
+
+  &-btn {
+  margin-left: 48.5%;
+}
+
+  & input {
+    width:60%;
+  }
+
+  & textarea {
+    width: 60%;
+  }
+
+  &-margin-top {
+    margin-top: 4rem;
+  }
+
+  &-wrapper {
+    padding: .5rem 2rem .5rem 2rem;
+  }
+
+  &-subheading {
+    text-align: center;
+
+
+  }
+
+  &-left-margin-fix {
+    margin-left: 19.5%;
+    margin-right: 20.4%;
+
+  }
+
+&-field-center {
+  padding-left: auto;
+  padding-right: auto;
+  display: block;
+}
+&-fieldset {
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+}

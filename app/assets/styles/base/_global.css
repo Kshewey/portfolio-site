@@ -1,0 +1,19 @@
+* {
+font-family: 'Exo 2', sans-serif;
+  margin: none;
+}
+
+html {
+  background-color: black;
+}
+
+body {
+  background: url(/assets/images/background1.jpg) fixed;
+  background-size: cover;
+
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: .1rem solid #342618;
+}

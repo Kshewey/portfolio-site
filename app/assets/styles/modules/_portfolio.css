@@ -1,0 +1,44 @@
+.portfolio {
+  color: #F5F5ED;
+  margin-top: 12rem;
+  padding-top: .1rem;
+  background-color: #2A2A2A;
+  display: block;
+  margin-left: -.5rem;
+  margin-right: -.5rem;
+  margin-bottom: none;
+  border-top: .1rem solid grey;
+  border-bottom: .1rem solid grey;
+
+
+  &-caption {
+    text-align: center;
+    &-title {
+      text-decoration: underline;
+      color: #F5F5ED;
+
+    }
+  }
+
+&-image-container {
+  margin-left: 1.5rem;
+
+  &:last-of-type {
+    margin-right: 1.5rem;
+}
+}
+
+
+    & img {
+      height: 100%;
+      width: 100%;
+    }
+
+    &-margin-top {
+      margin-top: 8rem;
+    }
+&-margin-bottom {
+  margin-bottom: 10rem;
+  display: block;
+}
+}

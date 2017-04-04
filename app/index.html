@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kevin Shewey's Portfolio</title>
+  <meta name="keywords" content="web design, web designer, web developer, web development">
+  <meta name="description" content="Kevin Shewey's Portfolio Website">
+  <link rel="stylesheet" href="temp/styles/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="header header-main-container">
+  <img src="/assets/images/headshot-cropped.jpg" class="header-headshot img-circle"></img>
+  <div class="header-prevent-collapse">
+    <h1 class="header-heading"><h1>
+    <h2 class="header-sub-heading"></h2>
+  </div>
+  <div class="header-about">
+    <p> A self taught coder, front end developer, and professional actor in New York City. I like art.
+      I like fixing things. I like making things. I like making money doing art and fixing things</p>
+</div>
+</div>
+
+
+<!-- Scripts for typewriter effect -->
+<script src="jquery-3.2.0.min.js">
+</script>
+<script src="typed.js">
+</script>
+<script>  document.addEventListener('DOMContentLoaded', function(){
+Typed.new('.header-heading', {
+  strings: ["Kevin Shewey"],
+  typeSpeed: 50,
+  showCursor: false
+  });
+ });
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+Typed.new('.header-sub-heading', {
+  strings: ["Web Designer and Developer"],
+  typeSpeed: 50,
+  startDelay: 1800,
+  showCursor: false
+  });
+});
+</script>
+<!-- End scripting for typewriter effect -->
+
+
+
+<div class="portfolio">
+  <h2 class="heading-title">Past Projects</h2>
+  <div class="portfolio-margin-top">
+
+
+
+
+      <div class="row-4">
+        <div class="portfolio-image-container">
+          <a href="http://www.thefunctionalshoes.com/"><img src="assets/images/functionalshoes.png"></a>
+          <a href="http://www.thefunctionalshoes.com/">  <p class="portfolio-caption portfolio-caption-title">The Functional Shoes</p></a>
+          <p class="portfolio-caption">A simple custom made HTML/CSS site for a theater company based in New York City</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="row-4">
+          <div class="portfolio-image-container">
+            <a href="https://kshewey.github.io/demo-travel-site/"><img src="assets/images/demo-travel-site.png"></a>
+              <a href="https://kshewey.github.io/demo-travel-site/"><p class="portfolio-caption portfolio-caption-title">Demo Travel Site</p></a>
+            <p class="portfolio-caption">A demo site that exemplifies best practices in HTML, CSS, and Javascript</p>
+          </div>
+        </div>
+
+      <div class="row-4">
+        <div class="portfolio-image-container">
+          <a href="http://www.kevinshewey.com/"><img src="assets/images/kevinshewey.png"></a>
+            <a href="http://www.kevinshewey.com/"><p class="portfolio-caption portfolio-caption-title">Personal Actor Website</p></a>
+          <p class="portfolio-caption">An actor website including custom HTML, CSS and Javascript</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-margin-top portfolio-margin-bottom">
+      <h2 class="heading-title">More coming soon!</h2>
+    </div>
+  </div>
+</div>
+
+
+<div class="contact contact-wrapper">
+
+  <h1 class="heading-title">Contact me</h1>
+  <div class="contact-margin-top">
+  <h2 class="contact-subheading">If you are interested in collaborating with me, email me at kevin.shewey@gmail.com <br> or fill out the contact form below!</h2>
+</div>
+
+<div class="contact-margin-top contact-field-center">
+  <form id="gform" method="POST" class="pure-form pure-form-stacked"
+  action="https://script.google.com/macros/s/AKfycbzdB6Cgilx2Y8odOywrzq-AREtN0F4QxGqlofyMqATxjncWnkpe/exec">
+
+  <fieldset class="contact-fieldset">
+     <label class =for="name">Name: </label><br>
+     <input id="name" name="name" placeholder="What your Mom calls you" />
+   </fieldset>
+
+   <fieldset class="contact-fieldset">
+     <label for="message">Message: </label><br>
+     <textarea id="message" name="message" rows="10"
+     placeholder="Tell us what's on your mind..."></textarea>
+   </fieldset>
+
+   <fieldset class="contact-fieldset">
+     <label for="email"><em>Your</em> Email Address:</label><br>
+     <input class ="contact-left-margin-fix" id="email" name="email" type="email" value=""
+     required placeholder="your.name@email.com"/>
+     <span id="email-invalid" style="visibility:hidden">
+       Must be a valid email address</span>
+   </fieldset>
+
+   <fieldset class="contact-fieldset">
+     <label for="color">Favourite Color: </label><br>
+     <input id="color" name="color" placeholder="Chartreusse" />
+   </fieldset>
+
+   <button class="contact-btn">
+     &nbsp;Send</button>
+
+  </form>
+
+</div>
+<div style="display:none;" id="thankyou_message">
+   <h2><em>Thanks</em> for contacting me!
+     I will get back to you soon!</h2>
+</div>
+
+<script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+
+</div>
+
+<div class="portfolio-social-media">
+  <div class="row row-3">
+    <a href="https://github.com/Kshewey"><img src="assets/images/github.png"></a>
+  </div>
+</div>
+
+
+
+</body>
+</html>
