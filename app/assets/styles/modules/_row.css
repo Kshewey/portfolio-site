@@ -13,8 +13,10 @@
 
   &-4 {
     float:left;
+    width: 100%;
+    @media (min-width: 530px) {
     width: 33.3%;
-
+}
     &::after {
       content: "";
       clear: both;

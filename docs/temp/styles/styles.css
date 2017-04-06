@@ -436,9 +436,17 @@ html {
 }
 
 body {
-  background: url(/assets/images/background1.jpg) fixed;
+  background: url(/assets/images/background1-small.jpg) fixed;
   background-size: cover;
 
+}
+
+@media (min-width: 530px) {
+
+  body {
+    background: url(/assets/images/background1.jpg) fixed;
+    background-size: cover;
+  }
 }
 
 .img-circle {
@@ -484,11 +492,19 @@ body {
 .header-about {
   margin-top: none;
   text-align: center;
-  width: 35%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
   border-top: .5rem solid white;
-  font-size: 1.1rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 530px) {
+
+  .header-about {
+    font-size: 1.1rem;
+    width: 35%;
+  }
 }
 
 .portfolio {
@@ -506,19 +522,37 @@ body {
 
 .portfolio-social-media {
   text-align: center;
-  margin: 3rem 12rem 3rem 12rem;
+  margin: 3rem 5% 3rem 5%;
+}
+
+@media (min-width: 530px) {
+
+  .portfolio-social-media {
+    margin: 3rem 25% 3rem 25%;
+  }
 }
 
 .portfolio-social-media img {
   width: 40%;
+  min-width: 50px;
   height: 40%;
+  min-width: 50px;
 }
 
 .portfolio-caption {
   text-align: center;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 530px) {
+
+  .portfolio-caption {
+    margin-bottom: none;
+  }
 }
 
 .portfolio-caption-title {
+  text-align: center;
   text-decoration: underline;
   color: #F5F5ED;
 }
@@ -537,7 +571,14 @@ body {
 }
 
 .portfolio-margin-top {
-  margin-top: 8rem;
+  margin-top: 4rem;
+}
+
+@media (min-width: 530px) {
+
+  .portfolio-margin-top {
+    margin-top: 8rem;
+  }
 }
 
 .portfolio-margin-bottom {
@@ -558,7 +599,14 @@ body {
 
 .row-4 {
   float:left;
-  width: 33.3%;
+  width: 100%;
+}
+
+@media (min-width: 530px) {
+
+  .row-4 {
+    width: 33.3%;
+  }
 }
 
 .row-4::after {
@@ -575,10 +623,19 @@ body {
 .contact {
   color: #F5F5ED;
   text-shadow: 1px 1px black;
-  background: url(/assets/images/contact-background2.jpg) fixed;
   background-size: cover;
   margin-left: -.5rem;
   margin-right: -.5rem;
+  background: url(/assets/images/contact-background2-small.jpg) fixed;
+  background-size: cover;
+}
+
+@media (min-width: 530px)  {
+
+  .contact {
+    background: url(/assets/images/contact-background2.jpg) fixed;
+    background-size: cover;
+  }
 }
 
 .contact-btn {
@@ -604,6 +661,14 @@ body {
 
 .contact-subheading {
   text-align: center;
+  font-size: 1rem;
+}
+
+@media (min-width: 530px) {
+
+  .contact-subheading {
+    font-size: 1.6rem;
+  }
 }
 
 .contact-left-margin-fix {
@@ -620,7 +685,14 @@ body {
 .contact-fieldset {
   border: none;
   text-align: center;
-  width: 60%;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
+}
+
+@media (min-width: 530px) {
+
+  .contact-fieldset {
+    width: 60%;
+  }
 }

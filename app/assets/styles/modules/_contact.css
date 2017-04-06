@@ -1,10 +1,16 @@
 .contact {
   color: #F5F5ED;
   text-shadow: 1px 1px black;
-  background: url(/assets/images/contact-background2.jpg) fixed;
   background-size: cover;
   margin-left: -.5rem;
   margin-right: -.5rem;
+  background: url(/assets/images/contact-background2-small.jpg) fixed;
+  background-size: cover;
+
+    @media (min-width: 530px)  {
+  background: url(/assets/images/contact-background2.jpg) fixed;
+  background-size: cover;
+}
 
 
   &-btn {
@@ -30,6 +36,10 @@
 
   &-subheading {
     text-align: center;
+    font-size: 1rem;
+      @media (min-width: 530px) {
+        font-size: 1.6rem;
+      }
 
 
   }
@@ -48,8 +58,11 @@
 &-fieldset {
   border: none;
   text-align: center;
-  width: 60%;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
+    @media (min-width: 530px) {
+        width: 60%;
+    }
 }
 }
