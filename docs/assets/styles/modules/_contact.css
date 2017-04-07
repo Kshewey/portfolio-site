@@ -9,7 +9,7 @@
 
     @media (min-width: 530px)  {
   background: url(/assets/images/contact-background2.jpg) fixed;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 
