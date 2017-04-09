@@ -2,14 +2,25 @@
   color: #F5F5ED;
   text-shadow: 1px 1px black;
   background-size: cover;
+  margin-top: -1.1rem;
   margin-left: -.5rem;
   margin-right: -.5rem;
-  background: url(/assets/images/contact-background2-small.jpg) fixed;
-  background-size: cover;
-
     @media (min-width: 530px)  {
   background: url(/assets/images/contact-background2.jpg) fixed;
-  background-size: 100% 100%;
+  background-size: cover;}
+
+  &-background-image {
+    height: 798px;
+    width: auto;
+    z-index: -1;
+  }
+
+    @media (min-width: 530px) {
+  &-background-image {
+    display: none;
+  }
+
+
 }
 
 
@@ -32,6 +43,13 @@
 
   &-wrapper {
     padding: .5rem 2rem .5rem 2rem;
+    transform: translateY(-100%);
+    position: absolute;
+
+      @media (min-width: 530px) {
+    transform: none;
+    position: inherit;
+  }
   }
 
   &-subheading {
