@@ -440,10 +440,6 @@ body {
   background-repeat: no-repeat; 
     background-position: center;
     background-attachment: fixed;       
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
 }
 
 @media (min-width: 530px) {
@@ -634,12 +630,7 @@ body {
   background: url(/assets/images/contact-background2-small.jpg) fixed;
    background-repeat: no-repeat; 
     background-position: center;
-    background-attachment: fixed;  
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
-   
+    background-attachment: fixed;       
 }
 
 @media (min-width: 530px)  {

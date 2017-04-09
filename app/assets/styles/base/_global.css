@@ -8,13 +8,8 @@ html {
 }
 
 body {
-  background: url(/assets/images/background1.jpg) fixed;
-  background-size: 100% 100%;
-  @media (max-width: 530px) {
-    background: url(/assets/images/background1-small.jpg) fixed;
-    background-size: 100% 100%;
 
-  }
+  display: inline;
 
 }
 
