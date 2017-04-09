@@ -437,7 +437,8 @@ html {
 
 body {
   background: url(/assets/images/background1-small.jpg) fixed;
-  background-size: cover;
+  background-size: 100% auto;  
+  background-repeat: no-repeat;
 
 }
 
@@ -627,7 +628,8 @@ body {
   margin-left: -.5rem;
   margin-right: -.5rem;
   background: url(/assets/images/contact-background2-small.jpg) fixed;
-  background-size: cover;
+   background-size: 100% auto;  
+   background-repeat: no-repeat;
 }
 
 @media (min-width: 530px)  {
