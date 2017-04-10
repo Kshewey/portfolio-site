@@ -6,12 +6,13 @@
   margin-top: -1.2rem;
   margin-left: -.5rem;
   margin-right: -.5rem;
-  margin-bottom: none;
+  margin-bottom: 22rem;
   border-top: .1rem solid grey;
   border-bottom: .1rem solid grey;
     @media (min-width: 530px)  {
       color: #F5F5ED;
       background-color: #2A2A2A;
+        margin-bottom: 0;
     }
 
 &-social-media {
