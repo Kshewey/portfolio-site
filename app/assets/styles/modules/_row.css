@@ -5,7 +5,13 @@
     clear: both;
     display: table;
    }
-
+&-6 {
+  float:left;
+  width: 100%;
+  @media (min-width: 530px) {
+  width: 50%;
+}
+}
    &-3 {
      float: left;
      width: 25%;
